@@ -1,0 +1,12 @@
+
+En Node.js, los "routes" (rutas en español) se refieren a la forma en que una aplicación
+ web maneja las solicitudes entrantes y las direcciona a funciones o controladores específicos
+  para su procesamiento. Las rutas son una parte fundamental de muchas aplicaciones web, ya que 
+  permiten definir cómo se deben manejar las diferentes URL o endpoints de la aplicación.
+
+En el contexto de una aplicación web construida con Node.js, las rutas son 
+utilizadas para definir cómo se debe responder a diferentes solicitudes HTTP (
+    como GET, POST, PUT, DELETE, etc.) que llegan al servidor. Cada ruta generalmente 
+    se asocia con una función o controlador que se ejecutará cuando esa ruta específica sea 
+    accedida. Estas funciones o controladores pueden realizar tareas como procesar datos, interactuar 
+    con bases de datos y generar respuestas HTML, JSON u otros formatos.

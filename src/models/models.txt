@@ -1,0 +1,8 @@
+En el contexto de desarrollo de aplicaciones web y en la arquitectura MVC (Modelo-Vista-Controlador),
+ los "models" (modelos en español) representan la capa de la aplicación que se encarga de manejar los datos y
+  la lógica relacionada con el almacenamiento y manipulación de esos datos. Los modelos se utilizan 
+para interactuar con bases de datos, validar y procesar datos, y llevar a cabo operaciones relacionadas con la persistencia y el manejo de información.
+
+Los modelos representan las entidades y estructuras de datos subyacentes en una aplicación, como usuarios, productos, pedidos,
+ comentarios, etc. Su responsabilidad principal es definir cómo se almacenan y acceden a los datos en la base de datos, así como
+  proporcionar métodos y funcionalidades para realizar operaciones como crear, leer, actualizar y eliminar registros.

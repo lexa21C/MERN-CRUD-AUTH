@@ -1,0 +1,9 @@
+Los "middlewares" en el contexto de una aplicación web, como en Node.js,
+ son funciones que se ejecutan en el proceso de manejo de una solicitud HTTP antes de que lleguen a las rutas o controladores específicos.
+  Estas funciones permiten realizar tareas como autenticación, 
+validación, manipulación de datos y más, antes de que la solicitud sea procesada por la lógica principal de la aplicación.
+
+Los middlewares actúan como intermediarios entre la solicitud entrante y el código que maneja la solicitud.
+ Pueden ejecutarse en cadena, lo que significa que puedes definir varios middlewares que se ejecutarán en orden antes
+  de que se llegue a la ruta final. Esto facilita la creación de capas de seguridad, manejo de errores y otras operaciones
+   comunes que deben realizarse en múltiples puntos de tu aplicación.

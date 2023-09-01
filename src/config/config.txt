@@ -1,0 +1,17 @@
+La carpeta "config" en una aplicación Node.js suele utilizarse para almacenar archivos de configuración que contienen valores y opciones que pueden variar según el entorno en el que se ejecuta la aplicación (por ejemplo, desarrollo, producción, pruebas, etc.). Estos archivos de configuración pueden incluir información como credenciales de bases de datos, variables de entorno, URLs de servicios externos, ajustes de seguridad y más.
+
+La idea detrás de tener una carpeta "config" es separar la configuración de la lógica de la aplicación, lo que hace que sea más fácil modificar los valores de configuración sin tener que modificar el código fuente en sí. Además, permite tener diferentes configuraciones para diferentes entornos sin necesidad de cambios manuales en el código.
+
+Los nombres de los archivos de configuración pueden variar según las convenciones de tu equipo o proyecto, pero aquí hay algunos ejemplos comunes:
+
+default.json o config.json: Este archivo podría contener configuraciones predeterminadas que se aplican a todos los entornos.
+
+development.json: Contiene configuraciones específicas para el entorno de desarrollo.
+
+production.json: Contiene configuraciones específicas para el entorno de producción.
+
+testing.json: Contiene configuraciones específicas para pruebas.
+
+local.json: Contiene configuraciones específicas para el entorno local del desarrollador.
+
+Los formatos de los archivos de configuración pueden variar, pero JSON (JavaScript Object Notation) es un formato común debido a su facilidad de lectura y escritura tanto para humanos como para máquinas. Sin embargo, también podrían utilizarse otros formatos como YAML, XML o incluso archivos JavaScript

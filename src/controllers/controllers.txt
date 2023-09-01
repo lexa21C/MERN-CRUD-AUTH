@@ -1,0 +1,9 @@
+En el contexto de una aplicación web, los "controllers" (controladores en español) son módulos o funciones 
+que se utilizan para manejar la lógica de negocio y la funcionalidad de una aplicación. Los controladores 
+generalmente se asocian con rutas específicas y se utilizan para procesar las solicitudes entrantes, 
+interactuar con la base de datos y realizar otras operaciones relacionadas con la lógica de la aplicación.
+
+Los controladores ayudan a mantener separadas las preocupaciones y a organizar el código de manera más modular 
+y mantenible. En muchas arquitecturas de aplicaciones, especialmente en el patrón Modelo-Vista-Controlador (MVC), 
+los controladores se encargan de recibir las solicitudes del usuario, coordinar las acciones
+ necesarias y devolver una respuesta apropiada.
